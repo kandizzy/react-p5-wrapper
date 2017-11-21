@@ -3,6 +3,7 @@ export default function sketch (p) {
 
   p.setup = function () {
     p.createCanvas(600, 400, p.WEBGL);
+    p.loadGif("somepath")
   };
 
   p.myCustomRedrawAccordingToNewPropsHandler = function (props) {
